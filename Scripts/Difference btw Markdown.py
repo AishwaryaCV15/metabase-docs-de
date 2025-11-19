@@ -22,9 +22,9 @@ import shutil
 import csv
 
 # Paths
-old_version = Path.home() / "Documents/Metabase/docs-0.54"
-new_version = Path.home() / "Documents/Metabase/docs"
-output_dir = Path.home() / "Documents/Metabase/diff_output1"
+old_version = Path.home() / "Documents/Metabase/docs"
+new_version = Path.home() / "Documents/Metabase/docs-0.54"
+output_dir = Path.home() / "Documents/Metabase/diff_output"
 
 # Output subfolders
 added_dir = output_dir / "added"
